@@ -1,0 +1,59 @@
+#popularAlbumsBox h3 {
+  color: aliceblue;
+  position: absolute;
+  top: 460px;
+  left: 1300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-1 {
+  padding: 5px;
+  /* border: 2px solid red; */
+}
+
+.scroller-container {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+#card-template {
+  width: 200%;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.scroller-container::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(3, 3, 22);
+}
+
+.scroller-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, rgb(45, 164, 211), rgb(234, 10, 234));
+  width: 100px;
+  border-radius: 50px;
+}
+.AlbumsCard {
+  width: 200px;
+  height: 260px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.AlbumsCard:hover {
+  /* border: 2px solid red; */
+  background-color: rgba(49, 52, 52, 0.395);
+  border-radius: 10px;
+}
+.AlbumsCard a {
+  text-decoration: none;
+}
+
+.AlbumsCard p,
+.AlbumsCard small {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,63 @@
+.card-1 img
+{
+    width: 100%;
+    height: 500px;
+
+   
+}
+
+.account-sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+   left: 650px;
+   bottom: 480px;
+   z-index: 1;
+}
+.login 
+{
+  width: 90px;
+  height: 50px;
+  border:none;
+  line-height: 50px;
+  background: linear-gradient(to top,rgba(45, 164, 211, 0.519),rgba(234, 10, 234, 0.329));
+  border-radius: 50px;
+
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 23px;
+}
+
+.login:hover
+{
+    background: linear-gradient(to top,rgba(45, 164, 211, 0.045),rgba(234, 10, 234, 0.329)); 
+    transition: 0.5s ease-out;
+}
+.signup:hover
+{
+    background: linear-gradient(to top,rgba(45, 164, 211, 0.045),rgba(234, 10, 234, 0.329)); 
+    transition: 0.5s ease-out;
+}
+.signup
+{
+    width: 90px;
+    height: 50px;
+   border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    background: linear-gradient(to top,rgba(45, 164, 211, 0.426),rgba(234, 10, 234, 0.329));
+    border:none;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 17px;
+}

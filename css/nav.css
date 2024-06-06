@@ -1,0 +1,67 @@
+
+.navbar {
+    width: 240px;
+   height: 800px;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.3s;
+
+}
+.navigation-menu ul li:hover
+{
+    background: linear-gradient(to left,rgba(45, 164, 211, 0),rgba(234, 10, 234, 0.329));
+
+}
+
+.hamburger {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar.open {
+    left: 0;
+}
+.navigation-menu ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 14px;
+    list-style: none;
+    z-index: -1;
+}
+.navigation-menu ul li a 
+{
+    
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: serif;
+    font-size: 16px;
+}
+
+.navigation-menu h1,h4
+{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.linear-text-gradient {
+    background: linear-gradient(to top,white,rgba(255, 255, 255, 0.659));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+}
+#icon 
+{
+    background: linear-gradient(to top,rgb(45, 164, 211),rgb(234, 10, 234));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
