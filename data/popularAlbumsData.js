@@ -1,17 +1,72 @@
 const popularAlbumsObj = [
-    {
-        "id": "1",
-        "IMG": "./Img/animalpopularalbums.webp",
-        "albumName": "Animal",
-        "link": "",
-        "artistsName": "Manan Bhadarwaj,Vishal Mishra,Jaani"
-    },
-    {
-        "IMG": "./Img/ik-tha-raja.jpg",
-        "id": "2",
-        "albumName": "Animal",
-        "link": "",
-        "artistsName": "Manan Bhadarwaj,Vishal Mishra,Jaani"
-    },
-
-]
+  {
+    id: "1",
+    IMG: "./Img/animalpopularalbums.webp",
+    albumName: "Animal",
+    link: "",
+    artistsName: "Manan Bhadarwaj,Vishal Mishra,Jaani",
+  },
+  {
+    IMG: "./Img/ik-tha-raja.jpg",
+    id: "3",
+    albumName: "Ik Tha Raja",
+    link: "",
+    artistsName: "Badshah",
+  },
+  {
+    IMG: "./Img/moostape.jpg",
+    id: "4",
+    albumName: "Moostape",
+    link: "",
+    artistsName: "Siddhu Moose wala",
+  },
+  {
+    IMG: "./Img/still-rollin.jpg",
+    id: "2",
+    albumName: "Still Rollin",
+    link: "",
+    artistsName: "Shubh",
+  },
+  {
+    IMG: "./Img/lapata-ladies.jpg",
+    id: "2",
+    albumName: "Sajni",
+    link: "",
+    artistsName: "Ram Sampath,Arijit Singh,Prashant Pandey",
+  },
+  {
+    IMG: "./Img/kabir-shingh.webp",
+    id: "2",
+    albumName: "Kabir Singh",
+    link: "",
+    artistsName: "Various Artists",
+  },
+  {
+    IMG: "./Img/yjhd.jpg",
+    id: "2",
+    albumName: "Yeh Jawani Hai Diwani",
+    link: "",
+    artistsName: "Pritam",
+  },
+  {
+    IMG: "./Img/hak.jpg",
+    id: "2",
+    albumName: "Humari Adhuri Kahani",
+    link: "",
+    artistsName: "Jeet Ganguli,Mithoon,Ami mishra",
+  },
+  {
+    IMG: "./Img/jab-we met.jpg",
+    id: "2",
+    albumName: "Jab we met",
+    link: "",
+    artistsName: "Manan Bhadarwaj,Vishal Mishra,Jaani",
+  },
+  {
+    IMG: "./Img/rockstart.jpg",
+    id: "2",
+    albumName: "Rockstar",
+    link: "",
+    artistsName: "A.R Rehman,Irshad Kamil",
+  },
+];
